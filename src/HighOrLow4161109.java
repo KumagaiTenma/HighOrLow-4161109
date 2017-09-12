@@ -10,8 +10,8 @@ public class HighOrLow4161109 {
 		int i = 0;//ゲームの回数
 		int a = 0;// 正解数
 		int b = 0;//不正解数
-		System.out.println("ランダム生成された数字");
-		System.out.println("どっちが大きいでしょう？");
+		System.out.println("ランダム生成された数字を作ったよ！");
+		System.out.println("どっちが大きいかな？");
 		System.out.println("3回勝負だよ！");
 
 		do{
@@ -54,7 +54,7 @@ public class HighOrLow4161109 {
 		}while(i < 3);
 
 		if(a > b){
-			System.out.println(a + "回正解したよ！おめでとー！");
+			System.out.println(a + "回正解したよ！すっごーい！");
 		}
 		else if(b > a){
 			System.out.println(b +"回不正解！ざんねーん...");
